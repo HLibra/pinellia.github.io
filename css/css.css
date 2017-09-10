@@ -1,6 +1,7 @@
 body{
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size:cover;
+  background-attachment: fixed;
   background-image:url("../img/background_img.jpg");
 }
 .cont
@@ -15,7 +16,7 @@ body{
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.3  );
 }
-#title
+.title
 {
   font-family: monospace;
   color: #fff;
@@ -30,4 +31,13 @@ body{
   position: absolute;
   top: 80%;
   left:60%;
+}
+#enter{
+  width: auto;
+  height: 30px;
+  background-color:rgb(22, 174, 222);
+}
+a{
+  color: #fff;
+  text-decoration: none;
 }
