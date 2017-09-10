@@ -1,18 +1,51 @@
 body{
   margin: 0;
+  padding:0;
 }
 .head>img{
   width: 100%;
   height:600px;
+  margin: 0;
 }
 .nav li{
-  padding-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 30px;
   list-style: none;
   float: left;
   color: #fff;
 }
+.d1{
+  text-align: center;
+  padding-left: 20%;
+}
 #nav{
+  margin: 0;
   background: rgb(26, 200, 102);
   height: 40px;
   width: 100%;
+}
+.cebian
+{
+  position: absolute;
+  left: 20px;
+  right: auto;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  float: left;
+  width: 30%;
+  height: 600px;
+  background-color: rgb(58, 97, 81);
+}
+.contuter{
+  position: absolute;
+  left: auto;
+  right: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  width: 65%;
+  height: 600px;
+  background-color: rgba(0, 172, 102, 0.75);
 }
