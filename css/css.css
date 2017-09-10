@@ -1,0 +1,33 @@
+body{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image:url("../img/background_img.jpg");
+}
+.cont
+{
+  position: absolute;
+
+  top: 30%;
+  right: 35%;
+  text-align: center;
+  width: 30%;
+  height: 40%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3  );
+}
+#title
+{
+  font-family: monospace;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn{
+  width: 200px;
+  height: auto;
+  color:#fff;
+  background-color:rgb(5, 176, 249);
+  position: absolute;
+  top: 80%;
+  left:60%;
+}
