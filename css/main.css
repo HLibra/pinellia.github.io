@@ -1,51 +1,126 @@
 body{
   margin: 0;
-  padding:0;
+
 }
-.head>img{
+a{
   width: 100%;
-  height:600px;
-  margin: 0;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+a:hover  {
+  background-color: rgb(73, 73, 73);
 }
 .nav li{
   text-align: center;
-  padding-top: 10px;
   padding-left: 30px;
   list-style: none;
   float: left;
-  color: #fff;
 }
 .d1{
+  width: 100%;
+  height: auto;
   text-align: center;
   padding-left: 20%;
 }
 #nav{
-  margin: 0;
-  background: rgb(26, 200, 102);
+  position: absolute;
+
+  background: #10141E;
   height: 40px;
   width: 100%;
 }
 .cebian
 {
-  position: absolute;
-  left: 20px;
-  right: auto;
+  position:absolute;
+  left: 5px;
+  color: #fff;
   text-align: center;
   border-radius: 20px;
-  margin: 10px;
   float: left;
   width: 30%;
-  height: 600px;
+  height: 2000px;
   background-color: rgb(58, 97, 81);
 }
 .contuter{
   position: absolute;
-  left: auto;
   right: 20px;
   text-align: center;
   border-radius: 20px;
-  margin: 10px;
   width: 65%;
-  height: 600px;
+  height: 2000px;
   background-color: rgba(0, 172, 102, 0.75);
+}
+.header{
+  position:fixed;
+  top: 0;
+  z-index: 10;
+  height: 60px;
+  background-color: #10141E;
+  width: 100%;
+  float: left;
+}
+.head_img{
+  float: left;
+  position: fixed;
+  top: 0;
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  margin-left: 100px;
+}
+.title{
+  text-align: center;
+  color: #fff;
+}
+.head{
+}
+/*重点出错的地方*/
+h1{
+  margin: 0;
+}
+.imgg{
+  padding-bottom: 50px;
+  width:inherit;
+  height: 400px;
+  background-image:url("../img/pic.jpg");
+  background-size: 100%;
+
+}
+.main{
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: auto;
+
+
+}
+.fram{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 500px;
+  left: 10%;
+}
+.top_button{
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(249, 88, 116);
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #10141E;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+}
+h3{
+  margin: 0;
 }
