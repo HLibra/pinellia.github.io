@@ -15,7 +15,8 @@ body{
 .cont
 {
   position: fixed;
-  left: 600px;
+  left: 30%;
+  opacity: 0;
   text-align: center;
   width: 500px;
   height: 400px;
