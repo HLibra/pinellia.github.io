@@ -98,7 +98,7 @@ a{
     width: 75%;
     text-align: center;
     margin: 0 auto;
-height: 100%;
+    height: 100%;
 
 
 }
@@ -113,7 +113,7 @@ height: 100%;
 
 .contuter{
 width: 100%;
-height: 1000px;
+height: 800px;
 }
 .wangqi
 {
@@ -153,9 +153,17 @@ height: 1000px;
   border-radius: 50px;
   background-color: rgb(249, 88, 116);
 }
+.but_h1{
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  color: #fff;
+}
 /*脚部*/
 .footer{
-  clear: left;
+  position: relative;
+  bottom: 0;
   text-align: center;
   background-color: #10141E;
   color: #fff;
