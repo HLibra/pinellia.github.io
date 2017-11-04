@@ -1,0 +1,36 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+a{
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(84, 68, 50);
+  text-align: left;
+}
+a:hover{
+  color: #fff;
+  padding-bottom: 1%;
+  border-bottom: 2px solid #000;
+}
+li{
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h6{
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+}
+h1{
+}
+.main{
+  padding-left: 10%;
+}
