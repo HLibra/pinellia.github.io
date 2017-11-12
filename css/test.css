@@ -1,0 +1,29 @@
+
+html,body{
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(84, 68, 50);
+}
+p{
+
+  text-indent:35px;
+  margin: 20px;
+}
+.center_i{
+
+    text-align: center;
+}
+img{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+
+  background-size: 100%;
+  text-align: center;
+
+}
+.img{
+  width: 500px;
+  height: 500px;
+  margin:20px 0;
+}

@@ -48,6 +48,7 @@ a:hover{
   width: 100%;
   font-size: 15px;
   padding: 0;
+  margin-top: 20px;
 }
 .r_text p{
   margin: 0;
@@ -83,11 +84,13 @@ a:hover{
 .main{
   border-radius: 50px;
   width: 50%;
-  height: 30%;
-  margin: 0 auto;
+  height: 20%;
+  margin: 25px auto;
   background-color: rgb(185, 150, 122);
+
 }
 .float_left{
+  margin-top: 15px;
   float: left;
   position: relative;
   right: 0;
@@ -105,7 +108,6 @@ a:hover{
   color: rgb(84, 68, 50);
 
 
-  border-top: 2px solid rgb(84, 68, 50);
 }
 .r_img{
   margin-right: 3%;
@@ -134,5 +136,19 @@ border: 5px solid  rgb(84, 68, 50);
 border-radius: 50%;
   background-size: 100%;
 text-align: center;
+
+}
+.title h2{
+
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.title{
+  margin: 25px 0;
+  margin-left: 25%;
+  width: 50%;
+    background-color: rgb(185, 150, 122);
+    border-radius: 50px;
 
 }
